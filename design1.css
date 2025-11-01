@@ -5,8 +5,15 @@
     height: 100vh;
     background-color: beige;
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
 img{
     height: 594px;
+    border-radius: 20px;
 }
 h4{
     color: gray;
@@ -16,14 +23,16 @@ p{
     width: 270px;
 }
 .right-container{
-    height: 50%;
-    width: 40%;
+    width: 400px;
     display: flex;
     justify-content: space-around;
-
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: aliceblue;
-    width: fit-content;
+    height: 594px;
+    border-radius: 20px;
+
    }
    .price{
     display: flex;
