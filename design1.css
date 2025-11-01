@@ -1,0 +1,44 @@
+.container-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+}
+img{
+    height: 594px;
+}
+h4{
+    color: gray;
+}
+p{
+    font-size: 1.5em;
+    width: 270px;
+}
+.right-container{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+    flex-direction: column;
+    background-color: aliceblue;
+    width: fit-content;
+   }
+   .price{
+    display: flex;
+    align-items: center;
+   }
+   .price .actuel{
+    color: green;
+    font-size: xx-large;
+
+   }
+   button{
+    background-color: green;
+    width: 300px;
+    height: 60px;
+    border: 2px solid white;
+    color: aliceblue;
+    font-size: xx-large;
+   }
