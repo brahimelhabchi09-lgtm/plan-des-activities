@@ -1,0 +1,48 @@
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+.big{
+    width: 400px;
+    border-radius: 15px;
+}
+.commentaire{
+    width: 430px;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.small{
+    width: 50px;
+    border-radius: 50px;
+}
+.auteur{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+}
+.cadre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    border-radius: 20px;
+}
+p{
+    width: 350px;
+    color: gray;
+}
+.date{
+    color: gray;
+    font-size: 0.8em;
+}
